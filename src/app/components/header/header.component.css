@@ -1,0 +1,29 @@
+.bg-dark{
+    background-color: rgb(17, 111, 128) !important; 
+    height: 40px;
+    font-size: 25px;
+}
+.navbar-brand{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    font-stretch: ultra-expanded !important;
+}
+
+.container-fluid{
+    background-color: rgb(17, 111, 128) !important; 
+    width: 100%;
+    margin:0%;
+}
+
+.list-group-item{
+    background-color: rgb(17, 111, 128) !important; 
+    outline: none;
+    color: white !important;
+    border: none;
+    font-size: 15px;
+}
+.list-group-horizontal{
+    outline: none;
+    border:none !important;
+}

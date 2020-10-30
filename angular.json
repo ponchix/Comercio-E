@@ -5,10 +5,27 @@
   "projects": {
     "Comercio-Electronico": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+          "@schematics/angular:component": {
+            "style": "css",
+            "skipTests": true
+          },
+          "@schematics/angular:class": {
+            "skipTests": true
+          },
+          "@schematics/angular:directive": {
+            "skipTests": true
+          },
+          "@schematics/angular:pipe": {
+            "skipTests": true
+          },
+          "@schematics/angular:service": {
+            "skipTests": true
+          }
+      },
       "root": "",
       "sourceRoot": "src",
-      "prefix": "app",
+      "prefix": "PonchixApp",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
@@ -76,6 +93,8 @@
             "browserTarget": "Comercio-Electronico:build"
           }
         },
+
+        
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
